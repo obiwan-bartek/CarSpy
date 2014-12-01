@@ -1,0 +1,8 @@
+MIDlet-1: CarSpy,/com/batorek/carspy/carIcon16a.png,com.batorek.carspy.CarSpy
+MIDlet-Jar-Size: 17391
+MIDlet-Jar-URL: CarSpy.jar
+MIDlet-Name: CarSpy
+MIDlet-Vendor: Bartosz Batorek
+MIDlet-Version: 0.1.58
+MicroEdition-Configuration: CLDC-1.1
+MicroEdition-Profile: MIDP-2.0

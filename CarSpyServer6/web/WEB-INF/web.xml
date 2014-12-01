@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <servlet>
+        <servlet-name>CarSpyDataSave</servlet-name>
+        <servlet-class>com.batorek.carspyserver6.CarSpyDataSave</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>MakeXML</servlet-name>
+        <servlet-class>com.batorek.carspyserver6.MakeXML</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Tracks</servlet-name>
+        <servlet-class>com.batorek.carspyserver6.Tracks</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Delete</servlet-name>
+        <servlet-class>com.batorek.carspyserver6.Delete</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CarSpyDataSave</servlet-name>
+        <url-pattern>/CarSpyDataSave.do</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>MakeXML</servlet-name>
+        <url-pattern>/MakeXML.do</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Tracks</servlet-name>
+        <url-pattern>/Tracks.do</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Delete</servlet-name>
+        <url-pattern>/Delete.do</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
