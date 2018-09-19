@@ -1,6 +1,9 @@
 /*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
+ *
+ * Copyright (c) 2014 Bartosz Bątorek
+ * Distributed under the MIT License
+ * See LICENSE.txt for further information.
+ *
  */
 package com.batorek.carspy;
 
