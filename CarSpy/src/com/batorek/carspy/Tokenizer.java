@@ -1,3 +1,11 @@
+/**
+ *
+ * Copyright (c) 2014 Bartosz Bątorek
+ * Distributed under the MIT License
+ * See LICENSE.txt for further information.
+ *
+ */
+
 package com.batorek.carspy;
 
 //import java.util.NoSuchElementException;
