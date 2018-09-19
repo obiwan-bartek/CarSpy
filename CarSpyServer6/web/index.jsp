@@ -2,6 +2,11 @@
     Document   : index
     Created on : 2010-12-28, 03:32:03
     Author     : Bartek
+ *
+ * Copyright (c) 2014 Bartosz Bątorek
+ * Distributed under the MIT License
+ * See LICENSE.txt for further information.
+ *
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
