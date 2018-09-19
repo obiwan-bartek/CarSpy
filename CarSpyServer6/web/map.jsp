@@ -2,6 +2,11 @@
     Document   : map
     Created on : 2011-01-19, 04:00:37
     Author     : Bartek
+ *
+ * Copyright (c) 2014 Bartosz Bątorek
+ * Distributed under the MIT License
+ * See LICENSE.txt for further information.
+ *
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
